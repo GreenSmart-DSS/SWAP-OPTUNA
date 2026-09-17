@@ -62,7 +62,7 @@ The legacy MATLAB parameter set is a **baseline / reference parameterization**, 
 
 The legacy MATLAB parameterization and its associated workflow are described in the following peer-reviewed publication, which provides the methodological background for the reference parameterization:
 
-**Noory et al. (2025), "Developing a method for root-zone soil moisture monitoring at the field scale using remote sensing and simulation modeling."**  
+**Noory, H., Khoshsimaie-Chenar, M., et al. (2025), "Developing a method for root-zone soil moisture monitoring at the field scale using remote sensing and simulation modeling."**  
 DOI: https://doi.org/10.1016/j.agwat.2024.109263
 
 The legacy MATLAB parameterization contains:

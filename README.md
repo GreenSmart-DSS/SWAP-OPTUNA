@@ -160,6 +160,7 @@ Its current structure is:
 date,value
 ```
 
+
 The current observations represent volumetric soil water content for the configured observation layer.
 
 The current calibration/evaluation observation layer is:
@@ -167,6 +168,7 @@ The current calibration/evaluation observation layer is:
 ```
 0–5 cm
 ```
+
 
 Field observations do not currently exist for all soil depths. The observation data consists of 10 dates recorded during the 2019 growing season:
 

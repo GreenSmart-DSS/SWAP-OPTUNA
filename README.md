@@ -525,9 +525,9 @@ SWAP-OPTUNA/
     └── test_vap.py
 ```
 
-## Generated and Ignored Files
+## Generated Files
 
-Generated files/directories (excluded from version control per `.gitignore`):
+Generated files/directories:
 
 | File/Directory | Description |
 |----------------|-------------|
@@ -544,7 +544,6 @@ Generated files/directories (excluded from version control per `.gitignore`):
 | `depth_diagnostics/` | Depth-layer diagnostic outputs |
 | `calibration_analysis/` | Post-calibration diagnostic outputs from `analyze_calibration.py` |
 
-**Explanation:** These are generated/working outputs. The `.gitignore` file excludes them from version control. The source distribution contains only the Python source code, configuration files, the SWAP template, and the reference observation data. Generated output files are not part of the source distribution.
 
 ## Installation
 

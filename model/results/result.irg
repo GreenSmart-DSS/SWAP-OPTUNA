@@ -1,0 +1,55 @@
+* Project:       Karaj-Data-Assimilation
+* File content:  irrigation data
+* File name:     results/RESULT.irg
+* Model version: Swap 3.2.87
+* Generated at:  16-Sep-2026 17:00:59
+*
+*      Crop name        Date   Day   Day  Irrigation     Solute
+*                             Crop   Cum          cm     mg/cm3
+*<=============><==========><====><====><==========>           <=========>
+       Crop name,       Date,  Day,  Day, Irrigation,    Solute
+wheat           ,05-Mar-2019, 125,   133,       3.3,  0.450E+00
+*
+*      Crop name        Date   Day   Day  Irrigation     Solute
+*                             Crop   Cum          cm     mg/cm3
+*<=============><==========><====><====><==========>           <=========>
+       Crop name,       Date,  Day,  Day, Irrigation,    Solute
+wheat           ,15-Apr-2019, 166,   174,       3.0,  0.450E+00
+*
+*      Crop name        Date   Day   Day  Irrigation     Solute
+*                             Crop   Cum          cm     mg/cm3
+*<=============><==========><====><====><==========>           <=========>
+       Crop name,       Date,  Day,  Day, Irrigation,    Solute
+wheat           ,22-Apr-2019, 173,   181,       3.0,  0.450E+00
+wheat           ,29-Apr-2019, 180,   188,       3.0,  0.450E+00
+*
+*      Crop name        Date   Day   Day  Irrigation     Solute
+*                             Crop   Cum          cm     mg/cm3
+*<=============><==========><====><====><==========>           <=========>
+       Crop name,       Date,  Day,  Day, Irrigation,    Solute
+wheat           ,06-May-2019, 187,   195,       3.0,  0.450E+00
+*
+*      Crop name        Date   Day   Day  Irrigation     Solute
+*                             Crop   Cum          cm     mg/cm3
+*<=============><==========><====><====><==========>           <=========>
+       Crop name,       Date,  Day,  Day, Irrigation,    Solute
+wheat           ,13-May-2019, 194,   202,       3.0,  0.450E+00
+wheat           ,20-May-2019, 201,   209,       3.0,  0.450E+00
+*
+*      Crop name        Date   Day   Day  Irrigation     Solute
+*                             Crop   Cum          cm     mg/cm3
+*<=============><==========><====><====><==========>           <=========>
+       Crop name,       Date,  Day,  Day, Irrigation,    Solute
+wheat           ,27-May-2019, 208,   216,       3.0,  0.450E+00
+*
+*      Crop name        Date   Day   Day  Irrigation     Solute
+*                             Crop   Cum          cm     mg/cm3
+*<=============><==========><====><====><==========>           <=========>
+       Crop name,       Date,  Day,  Day, Irrigation,    Solute
+wheat           ,03-Jun-2019, 215,   223,       3.0,  0.450E+00
+wheat           ,10-Jun-2019, 222,   230,       3.0,  0.450E+00
+*
+*      Crop name        Date   Day   Day  Irrigation     Solute
+*                             Crop   Cum          cm     mg/cm3
+*<=============><==========><====><====><==========>           <=========>
+       Crop name,       Date,  Day,  Day, Irrigation,    Solute

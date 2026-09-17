@@ -1,0 +1,23 @@
+[project]
+name = "swap-optuna"
+version = "0.1.0"
+description = "A Python framework for SWAP soil hydraulic parameter calibration and depth-specific model diagnostics"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib",
+    "optuna",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-m 'not integration'"
+markers = [
+    "integration: tests that execute the SWAP model",
+]

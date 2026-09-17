@@ -1,0 +1,65 @@
+* Project:       Karaj-Data-Assimilation
+* File content:  final state variables
+* File name:     results/RESULT.end
+* Model version: Swap 3.2.87
+* Generated at:  16-Sep-2026 17:01:00
+
+*  Snow layer (Ssnow in cm)
+ Ssnow =  0.00000E+00
+
+*  Liquid water in snow layer (cm)
+ Slw =  0.00000E+00
+
+*  Ponding layer (Pond in cm)
+ Pond =  0.00000E+00
+
+*  Soil water pressure heads  (z in cm, h in cm)
+       z_h,h
+      -0.5,-1.05467E+05
+      -1.5,-4.92893E+04
+      -2.5,-3.17710E+04
+      -3.5,-2.37519E+04
+      -4.5,-1.91944E+04
+      -7.5,-1.29015E+04
+     -12.5,-8.78676E+03
+     -17.5,-6.65784E+03
+     -22.5,-5.29520E+03
+     -27.5,-4.37249E+03
+     -32.5,-3.74495E+03
+     -37.5,-3.31867E+03
+     -42.5,-3.03072E+03
+     -47.5,-2.84119E+03
+     -52.5,-2.72588E+03
+     -57.5,-2.67119E+03
+
+*  Soil temperatures  (z in cm, Tsoil in C)
+   z_Tsoil,Tsoil
+      -0.5, 2.83209E+01
+      -1.5, 2.83625E+01
+      -2.5, 2.84036E+01
+      -3.5, 2.84442E+01
+      -4.5, 2.84844E+01
+      -7.5, 2.86038E+01
+     -12.5, 2.87932E+01
+     -17.5, 2.89689E+01
+     -22.5, 2.91278E+01
+     -27.5, 2.92679E+01
+     -32.5, 2.93877E+01
+     -37.5, 2.94870E+01
+     -42.5, 2.95657E+01
+     -47.5, 2.96242E+01
+     -52.5, 2.96628E+01
+     -57.5, 2.96820E+01
+
+*  Soil evaporation reservoir (Black)
+*  Time after significant rainfall (d)
+ ldwet =  0.18000E+02
+
+*  Timing parameters
+*  Length of final time step (d)
+ dt =  0.20000E+00
+
+*  Weather data
+*  Minimum temperatures of last week
+ atmin7 = 
+   0.27200E+02   0.26000E+02   0.19900E+02   0.17200E+02   0.19000E+02   0.18500E+02   0.18100E+02

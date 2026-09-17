@@ -1,0 +1,94 @@
+SWAP-OPTUNA Calibration Analysis
+================================
+
+Study
+-----
+Name: swap_soil_calibration_tpe
+Direction: MINIMIZE
+Total trials: 200
+Completed trials: 200
+
+Best trial
+----------
+Trial number: 134
+Best RMSE: 0.0245481568
+
+Best parameters
+---------------
+ores: 0.0883132744398
+osat: 0.374699793823
+alfa: 0.00610127493643
+npar: 1.10175492348
+ksatfit: 19.5879735792
+lexp: 1.4691429066
+ksatexm: 37.2390693708
+bdens: 1489.64350646
+
+Best-trial metrics
+------------------
+RMSE: 0.0245481568
+MAE: 0.021820000000000006
+MBE: -0.0018200000000000104
+R2: 0.4541732409440449
+NSE: 0.18248839824096064
+Matched observations: 10
+
+PedANOVA parameter importance
+-----------------------------
+ksatexm: 0.23482646
+npar: 0.18003581
+osat: 0.15906766
+ores: 0.11527633
+alfa: 0.10612571
+bdens: 0.10440172
+ksatfit: 0.05970878
+lexp: 0.04055753
+
+fANOVA parameter importance
+---------------------------
+npar: 0.94300512
+osat: 0.02521597
+ksatexm: 0.01268544
+bdens: 0.00924565
+alfa: 0.00340994
+lexp: 0.00259264
+ksatfit: 0.00241514
+ores: 0.00143011
+
+Boundary diagnostics
+--------------------
+ores: best=0.0883132744398; normalized_position=0.9438; not near a bound
+osat: best=0.374699793823; normalized_position=0.4988; not near a bound
+alfa: best=0.00610127493643; normalized_position=0.0460; near lower bound
+npar: best=1.10175492348; normalized_position=0.0034; near lower bound
+ksatfit: best=19.5879735792; normalized_position=0.9588; near upper bound
+lexp: best=1.4691429066; normalized_position=0.6724; not near a bound
+ksatexm: best=37.2390693708; normalized_position=0.8615; not near a bound
+bdens: best=1489.64350646; normalized_position=0.5585; not near a bound
+
+Parameter–RMSE correlations
+----------------------------
+ores: Pearson=-0.354159; Spearman=-0.428595
+osat: Pearson=-0.106273; Spearman=-0.080840
+alfa: Pearson=0.355411; Spearman=0.468826
+npar: Pearson=0.910302; Spearman=0.807712
+ksatfit: Pearson=-0.402573; Spearman=-0.369783
+lexp: Pearson=-0.288677; Spearman=-0.237327
+ksatexm: Pearson=-0.345437; Spearman=-0.417228
+bdens: Pearson=0.131249; Spearman=-0.122685
+
+Interpretation notes
+--------------------
+Parameter importance describes the relationship between sampled parameter values and the optimization objective within this Optuna study.
+
+fANOVA and PedANOVA use different statistical perspectives and may therefore produce different rankings.
+
+Parameter importance is not a direct measure of physical parameter importance in the SWAP model.
+
+Pearson and Spearman correlations are screening diagnostics and should not be interpreted as global sensitivity indices.
+
+Boundary proximity indicates that the best sampled value is close to a predefined calibration bound. It does not by itself justify changing the bound.
+
+Top-trial parameter ranges describe empirical distributions among the best sampled trials and should not be interpreted as formal confidence intervals.
+
+The MATLAB comparison is descriptive. It does not establish that either calibration method is statistically superior.

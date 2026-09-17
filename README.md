@@ -184,7 +184,6 @@ Field observations do not currently exist for all soil depths. The observation d
 | 27-May-2019 | 0.3266 |
 | 07-Jun-2019 | 0.2504 |
 | 20-Jun-2019 | 0.2440 |
-```
 
 The observation structure is `date,value` where `date` is a datetime and `value` is volumetric water content. No interpolation or reconstruction of missing dates is performed.
 
@@ -245,7 +244,7 @@ The diagnostic workflow supports two situations:
 
 For example:
 
-```text
+```
 0–5 cm
 ```
 

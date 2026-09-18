@@ -732,3 +732,5 @@ The codebase exhibits the following structural characteristics:
 - **Backward-compatible plotting functions** — `plot_time_series`/`plot_scatter` behave the same for existing code, while new layer-specific functions provide extended diagnostics.
 
 These are observed characteristics of the current implementation, not formal guarantees.
+
+**This repository represents an early research prototype and is under active development.**
